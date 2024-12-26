@@ -18,9 +18,7 @@
     
     
   },
-  
-"autopep8.args": [
-    "--max-line-length", "85"
-],
-
+  "black-formatter.args": [
+    "--line-length=80"
+  ],
 }

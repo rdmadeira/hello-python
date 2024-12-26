@@ -45,7 +45,9 @@ print(a, c, f)
 print(
     language[1:4]
 )  # yth - toma los valores del 1 al 3 (no cuenta el 4) - es un slice
-print(language[1:])  # ython - toma los valores del 1 al final - es un slice
+print(
+    language[1:]
+)  # ython - toma los valores del 1 al final - es un slice
 print(language[-3])  # h - toma los valores del final -3 - es un slice
 print(language[::-1])  # nohtyP - Hace al reves
 print(language[0:6:2])  # No entendi
